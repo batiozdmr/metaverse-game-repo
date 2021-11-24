@@ -13,7 +13,6 @@ import os
 from pathlib import Path
 from django.utils.translation import ugettext_lazy as _
 
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -218,3 +217,5 @@ ADMIN_STYLE = {
 }
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+DISABLE_COLLECTSTATIC = 1
