@@ -17,6 +17,7 @@ django-rosetta==0.9.4
 django-translations==1.1.2
 djangorestframework==3.12.4
 filelock==3.0.12
+gunicorn==19.0.0
 idna==2.10
 importlib-metadata==3.10.0
 nodejs==0.1.1
