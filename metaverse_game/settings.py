@@ -89,27 +89,27 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'metaverse_game.wsgi.application'
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'dbo8u8p7jb53bo',
-#         'USER': 'vubkfmkjrtaqsz',
-#         'PASSWORD': '694b04d03ae300db97c8011618d8878ebd50bf8f280226fdbbd801f9c19a05df',
-#         'HOST': 'ec2-99-81-177-233.eu-west-1.compute.amazonaws.com',
-#         'PORT': '5432',
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'metaverse_game',
-        'USER': 'postgres',
-        'PASSWORD': '1',
-        'HOST': 'localhost',
+        'NAME': 'dbo8u8p7jb53bo',
+        'USER': 'vubkfmkjrtaqsz',
+        'PASSWORD': '694b04d03ae300db97c8011618d8878ebd50bf8f280226fdbbd801f9c19a05df',
+        'HOST': 'ec2-99-81-177-233.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'metaverse_game',
+#         'USER': 'postgres',
+#         'PASSWORD': '1',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -217,5 +217,3 @@ ADMIN_STYLE = {
 }
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
-DISABLE_COLLECTSTATIC = 1
